@@ -1,2 +1,0 @@
-export PM_USER='root@pam'                                             ✔  11:23:04 ▓▒░
-export PM_PASS='BASICit77364490'
