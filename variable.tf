@@ -4,7 +4,7 @@
 variable "pm_api_url" {
   description = "The Proxmox API URL."
   type        = string
-  default = "https://your-ip:8006/api2/json"
+  default = "https://10.0.0.53:8006/api2/json"
 }
 
 variable "pm_user" {
@@ -16,7 +16,7 @@ variable "pm_user" {
 variable "pm_pass" {
     type        = string
     description = "user password "
-    default     = ""
+    default     = "BASICit77364490"
 }
 
 variable "namespace" {

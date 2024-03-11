@@ -11,12 +11,3 @@ module "argocd" {
   pm_pass    = local.pm_pass
 
 }
-
-# module "keycloak" {
-#   source = "./modules/keycloak"
-
-#   pm_api_url = "https://your-ip-address:8006/api2/json"
-#   pm_user    = local.pm_user
-#   pm_pass    = local.pm_pass
-#   namespace = var.namespace
-# }
